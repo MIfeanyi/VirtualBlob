@@ -1,0 +1,15 @@
+
+#envoirnment(s)
+env = Environment()
+
+#Flags
+env.ParseConfig('sdl-config --cflags ')
+env.ParseConfig('sdl-config --libs')
+env.Append( CCFLAGS = ['-g', '-Wall'] )
+env.Append( LIBS = [ 'SDL_mixer', 'SDL_image' ] )
+
+#Build
+env.Program(target='Bin/vb', source= Glob('Source/*.cpp') )
+
+
+#Program('Bin/hello', Glob('Source/*.cpp') )
