@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="VirtualBlob" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option platforms="" />
+				<Option output="bin/Release/VirtualBlob" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../../Source/Animation.cpp" />
+		<Unit filename="../../Source/Animation.hpp" />
+		<Unit filename="../../Source/Audio.cpp" />
+		<Unit filename="../../Source/Audio.hpp" />
+		<Unit filename="../../Source/Button.hpp" />
+		<Unit filename="../../Source/Font.cpp" />
+		<Unit filename="../../Source/Font.hpp" />
+		<Unit filename="../../Source/Game.hpp" />
+		<Unit filename="../../Source/Graphics.cpp" />
+		<Unit filename="../../Source/Graphics.hpp" />
+		<Unit filename="../../Source/Main.cpp" />
+		<Unit filename="../../Source/Pet.cpp" />
+		<Unit filename="../../Source/Pet.hpp" />
+		<Unit filename="../../Source/String.cpp" />
+		<Unit filename="../../Source/String.hpp" />
+		<Unit filename="../../Source/System.cpp" />
+		<Unit filename="../../Source/System.hpp" />
+		<Unit filename="../../Source/UI.cpp" />
+		<Unit filename="../../Source/UI.hpp" />
+		<Unit filename="../../Source/Window.cpp" />
+		<Unit filename="../../Source/Window.hpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

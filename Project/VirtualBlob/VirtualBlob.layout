@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="Release" />
+	<File name="../../Source/Animation.cpp" open="1" top="0" tabpos="6">
+		<Cursor position="96" topLine="0" />
+	</File>
+	<File name="../../Source/Animation.hpp" open="1" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../Source/Game.hpp" open="1" top="0" tabpos="1">
+		<Cursor position="2203" topLine="113" />
+	</File>
+	<File name="../../Source/Graphics.cpp" open="0" top="0" tabpos="6">
+		<Cursor position="450" topLine="11" />
+	</File>
+	<File name="../../Source/Graphics.hpp" open="0" top="0" tabpos="5">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../Source/Main.cpp" open="1" top="0" tabpos="2">
+		<Cursor position="0" topLine="0" />
+	</File>
+	<File name="../../Source/Pet.cpp" open="1" top="0" tabpos="4">
+		<Cursor position="382" topLine="0" />
+	</File>
+	<File name="../../Source/Pet.hpp" open="1" top="0" tabpos="3">
+		<Cursor position="411" topLine="6" />
+	</File>
+	<File name="../../Source/System.cpp" open="1" top="1" tabpos="8">
+		<Cursor position="244" topLine="0" />
+	</File>
+	<File name="../../Source/System.hpp" open="1" top="0" tabpos="7">
+		<Cursor position="314" topLine="0" />
+	</File>
+	<File name="../../Source/Window.cpp" open="1" top="0" tabpos="9">
+		<Cursor position="52" topLine="25" />
+	</File>
+	<File name="../../Source/Window.hpp" open="0" top="0" tabpos="7">
+		<Cursor position="346" topLine="0" />
+	</File>
+</CodeBlocks_layout_file>
