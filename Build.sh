@@ -1,3 +1,5 @@
 #!/bin/bash
 
-scons
+scons 
+
+./Run.sh

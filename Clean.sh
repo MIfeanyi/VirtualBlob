@@ -2,4 +2,5 @@
 
 #Cleans Project
 
+rm vb
 scons -c

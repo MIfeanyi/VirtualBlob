@@ -3,11 +3,16 @@
 Graphics::Graphics()
 {
     //ctor
+    Image = NULL;
 }
 
 Graphics::~Graphics()
 {
     //dtor
+    if (Image != NULL)
+    {
+        SDL_FreeSurface( Image);
+    }
 }
 
 void Graphics::LoadImage(string filename)
@@ -24,7 +29,7 @@ void Graphics::LoadImage(string filename)
     }
     else
     {
-        //printf("Image loading failed for: %s", filename.c_str() );
+
         cout<<"Image loading failed:"<< filename <<endl;
     }
 }

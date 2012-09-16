@@ -30,6 +30,7 @@ Window::Window(int WindowWidth, int WindowHeight, string WindowTitle, bool Full)
 Window::~Window()
 {
     //dtor
+
 }
 
 void Window::LimitFramerate()
@@ -90,9 +91,15 @@ void Window::RenderText()
 {
     SDL_BlitSurface(Text,NULL,Screen, NULL);
 }
+
 void Window::Clear()
 {
     SDL_FillRect(Screen, 0, SDL_MapRGB(Screen->format, 0, 0, 0));
+}
+
+void Window::Clear(int R, int G, int B)
+{
+    SDL_FillRect(Screen, 0, SDL_MapRGB(Screen->format, R, G, B));
 }
 
 void Window::Flip()
