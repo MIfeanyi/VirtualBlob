@@ -8,7 +8,7 @@ class Animation
 public:
     Animation();
 
-    Graphics Sprite;
+    Graphics Gfx;
     bool Loop, Done;
     SDL_Rect Clip; // deminsions of each frame
     int CurrentFrame, MaxFrames;

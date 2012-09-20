@@ -115,11 +115,13 @@ int UpdateGame(Window &App)
     bool Running = true;
 
 
-    KEYS Action, Back;
+    KEYS Action,
+    Back;
     Action = System::BindKey();
 
     Pet VirtualBlob;
-    //VirtualBlob.Cleaning.Sprite.LoadImage();
+    VirtualBlob.Eating.Gfx.LoadImage("Data/Eat.png");
+
     //VirtualBlob.
     while(Running)
     {

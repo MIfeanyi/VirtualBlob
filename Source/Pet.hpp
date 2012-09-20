@@ -12,26 +12,26 @@ using namespace std;
 
 class Pet
 {
-	enum Feelings
-	{
-		HAPPY = 0,
-		SAD,
-		TIRED,
-		NORMAL
-	};
-	enum Animation
-	{
-	  EATING = 0,
-	  PLAYING,
-	  CLEANING,
-	  RESTROOM
-	};
+    enum Feelings
+    {
+        HAPPY = 0,
+        SAD,
+        TIRED,
+        NORMAL
+    };
+    enum Animation
+    {
+        EATING = 0,
+        PLAYING,
+        CLEANING,
+        RESTROOM
+    };
 
-	public:
-	Pet();
+public:
+    Pet();
 
-	Graphics Gfx;
-	void TimeEvent();
+    Graphics Gfx;
+    void TimeEvent();
 
     void Update(); //manages the feels & values of the Pet
     //Actions
@@ -46,13 +46,13 @@ class Pet
     Animation Cleaning;
     Animation UsingRestroom;
 
-	protected:
+protected:
     Uint32 Start;
 
-	int Hungry,
-	Dirty,
-	Weight,
-	Bathroom;
+    int Hungry,
+    Dirty,
+    Weight,
+    Bathroom;
 
 };
 
